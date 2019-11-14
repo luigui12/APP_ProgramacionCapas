@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APP_ProgramacionCapas", "AP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APP_Interfaz_wind", "APP_Interfaz_wind\APP_Interfaz_wind.csproj", "{F165183E-BB34-49E9-81FF-7C228C0A61B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APP_Prueba_Facto", "APP_Prueba_Facto\APP_Prueba_Facto.csproj", "{34C5CE0B-2CB1-4BD7-AEB4-62C84C958CE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F165183E-BB34-49E9-81FF-7C228C0A61B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F165183E-BB34-49E9-81FF-7C228C0A61B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F165183E-BB34-49E9-81FF-7C228C0A61B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34C5CE0B-2CB1-4BD7-AEB4-62C84C958CE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C5CE0B-2CB1-4BD7-AEB4-62C84C958CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C5CE0B-2CB1-4BD7-AEB4-62C84C958CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C5CE0B-2CB1-4BD7-AEB4-62C84C958CE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
