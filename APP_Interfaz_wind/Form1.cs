@@ -16,5 +16,21 @@ namespace APP_Interfaz_wind
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int num;
+            double res;
+            num = int.Parse(this.numero.Text);
+
+            res = APP_ProgramacionCapas.Factorial.fact(num);
+            this.resu.Text = res.ToString();
+        }
+
+        private void sa_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Gracias por visitar... :3");
+            this.Close();
+        }
     }
 }
