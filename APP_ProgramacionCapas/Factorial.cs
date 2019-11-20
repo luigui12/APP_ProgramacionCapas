@@ -34,5 +34,6 @@ namespace APP_ProgramacionCapas
         {
             return (num*num);
         }
+
     }
 }
