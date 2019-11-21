@@ -16,10 +16,10 @@ namespace APP_Billetes
 
         static void cambio(double dolares)
         {
-            int billeta10 = (int)dolares / 10;
+            int billeta10 = ((int)dolares / 10);
             Console.WriteLine("(0) billetes de 10 dolares", billeta10);
 
-            int billete5 = ((int)dolares % 10);
+            int billete5 = (int)dolares % 10;
             Console.WriteLine("(0) Billete(s) de 5 dolares", billete5);
 
             int billete1 = ((int)dolares % 10) % 5;
